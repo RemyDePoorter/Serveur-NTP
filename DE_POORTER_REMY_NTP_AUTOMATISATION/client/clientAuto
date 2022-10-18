@@ -1,0 +1,5 @@
+#!/bin/bash
+make
+sudo ./myConfClient
+sudo systemctl restart systemd-timesyncd
+sudo systemctl restart chronyd

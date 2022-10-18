@@ -1,0 +1,5 @@
+#!/bin/bash
+make
+sudo ./myConfServ
+sudo systemctl enable chronyd
+sudo systemctl start chronyd
